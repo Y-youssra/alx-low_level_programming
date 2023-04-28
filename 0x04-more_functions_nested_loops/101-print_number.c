@@ -12,8 +12,7 @@ void print_number(int n)
 	{
 		n1 = -n;
 		_putchar('-');
-	} 
-	else
+	} else
 	{
 		n1 = n;
 	}
@@ -25,4 +24,3 @@ void print_number(int n)
 
 	_putchar((n1 % 10) + '0');
 }
-
